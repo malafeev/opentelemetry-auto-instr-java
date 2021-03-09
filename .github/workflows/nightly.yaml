@@ -18,7 +18,7 @@ jobs:
           java-version: 11
 
       - name: Restore cache
-        uses: burrunan/gradle-cache-action@v1.6
+        uses: burrunan/gradle-cache-action@v1.8
         with:
           job-id: jdk11
 
@@ -48,7 +48,7 @@ jobs:
           java-version: 11
 
       - name: Restore cache
-        uses: burrunan/gradle-cache-action@v1.6
+        uses: burrunan/gradle-cache-action@v1.8
         with:
           job-id: jdk${{ matrix.java }}
 
@@ -68,7 +68,7 @@ jobs:
           java-version: 11
 
       - name: Restore cache
-        uses: burrunan/gradle-cache-action@v1.6
+        uses: burrunan/gradle-cache-action@v1.8
         with:
           job-id: latestDepTest
 
@@ -93,7 +93,7 @@ jobs:
           java-version: 11
 
       - name: Restore cache
-        uses: burrunan/gradle-cache-action@v1.6
+        uses: burrunan/gradle-cache-action@v1.8
         with:
           job-id: jdk11
 
